@@ -1,0 +1,836 @@
+<html lang="ko-KR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html">
+        <meta name="viewprot" content="width=device-width" initial-scale="1.0">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://hji-portfoilo.shop">
+        <meta property="og:title" content="HJI's PortFolio">
+        <meta property="og:description" content="Welcome to my PortFolio">
+        <meta property="og:image" content="images/myProfileRe.jpg">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" integrity="sha512-6qkvBbDyl5TDJtNJiC8foyEVuB6gxMBkrKy67XpqnIDxyvLLPJzmTjAj1dRJfNdmXWqD10VbJoeN4pOQqDwvRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            ::-webkit-scrollbar {
+                width: 7px;
+            }
+            ::-webkit-scrollbar-track {
+                border-radius: 16px;
+                box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+            }
+            ::-webkit-scrollbar-thumb {
+                border-radius: 16px;
+                background-color: rgb(136, 136, 136);
+            }
+        </style>
+    </head>
+
+    <title> HJI's Portfolio </title>
+
+    <body>
+
+        <div class="wrap">
+            <div class="mainContainer">
+                <div class="main_leftContainer">
+                    <div class="profileContainer">
+                        <div class="profile">
+                            <div class="profile_photo">
+                                <div class="photo_zone">
+                                    <div class="myProfile">
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile_text">
+                                <h1>
+                                    Jeongin Hong
+                                </h1>
+                                <h2>
+                                    Backend Developer
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="socialMedia">
+                            <!--소셜 이미지-->
+                            <div class="social_image">
+                                <a href="https://github.com/Hongjeongin" target="_blank">
+                                    <div class="github">
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contactMe" onclick="contact_me()">
+                            <div class="contactMe_img">
+                                
+                            </div>
+                            <div class="contactMe_text">
+                                Contact Me
+                            </div>
+                        </div>
+                        <div class="copyright">
+                            © 2022 All right reserved.
+                        </div>
+                    </div>
+                    <div class="portfolioContainerWrap">
+                        <div class="portfolioContainer">
+                            <div id="portfolio" class="portfolio">
+                                <section id="home" class="main_section active_section">
+                                    <div class="container">
+                                        <div class="row_2">
+                                            <div class="home_box">
+                                                <div class="titleFunctionText">
+                                                    <span class="blueFont">def</span>
+                                                    <span class="paleYellowFont">hongJeongin</span>
+                                                    <span class="yellowFont">(</span>
+                                                    <span class="yellowFont">)</span>
+                                                    <span class="whiteFont">:</span>
+                                                </div>
+                                                <div class="homeFunctionText">
+                                                    <div class="printFunctionText">
+                                                        <span class="paleYellowFont">print</span>
+                                                        <span class="yellowFont">(</span>
+                                                        <span class="orangeFont">"</span>
+                                                        <span class="whiteFont">Hello, Welcome to my PortFolio</span>
+                                                        <span class="orangeFont">"</span>
+                                                        <span class="yellowFont">)</span>
+                                                    </div>
+                                                    <div class="returnFunctionText">
+                                                        <span class="wineFont">return</span>
+                                                        <span class="blueFont">None</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section id="aboutMe" class="main_section">
+                                    <div class="container">
+                                        <div class="project section_title whiteFont">
+                                            <h1>About Me</h1>
+                                        </div>
+                                        <div class="myName">
+                                            <span class="blueFont">class</span>
+                                            <span class="emeraldFont">JeonginHong</span>
+                                            <span class="yellowFont">(</span>
+                                            <span class="yellowFont">)</span>
+                                            <span class="whiteFont">:</span>
+                                        </div>
+                                        <div class="functions">
+                                            <div class="function_title">
+                                                <span class="blueFont">def</span>
+                                                <span class="paleYellowFont">profile</span>
+                                                <span class="yellowFont">(</span>
+                                                <span class="yellowFont">)</span>
+                                                <span class="whiteFont">:</span>
+                                            </div>
+                                            <div class="function_text">
+                                                <ul class="text_detail greenFont">
+                                                    <li>
+                                                        <span>#Name</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>#Age</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>#Address</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>#E-mail</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>#Phone</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>#Major</span>
+                                                    </li>
+                                                </ul>
+                                                <ul class="text_detail whiteFont">
+                                                    <li>
+                                                        <span class="whiteFont">Jeongin Hong</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="whiteFont">26, born in 1997</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="whiteFont">Danwon-gu, Ansan, KOR</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="whiteFont">wildcardhong@gmail.com</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="whiteFont">(+82) 10 2976 7875</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="whiteFont">Computer Engineering in Sunmoon Univ, KOR</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="functions">
+                                            <div class="function_title">
+                                                <span class="blueFont">def</span>
+                                                <span class="paleYellowFont">myKnowledges</span>
+                                                <span class="yellowFont">(</span>
+                                                <span class="yellowFont">)</span>
+                                                <span class="whiteFont">:</span>
+                                            </div>
+                                            <div class="function_text">
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="myKnowledgeTitle_box">
+                                                                <span class="greenFont">#Frontend</span>
+                                                            </td>
+                                                            <td class="myKnowledgeText_box">
+                                                                <h5>HTML</h5>
+                                                                <h5>CSS</h5>
+                                                                <h5>JavaScript</h5>
+                                                                <h5>Jquery</h5>
+                                                                <h5>EJS</h5>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="myKnowledgeTitle_box">
+                                                                <span class="greenFont">#Backend</span>
+                                                            </td>
+                                                            <td class="myKnowledgeText_box">
+                                                                <h5>Python</h5>
+                                                                <h5>Java</h5>
+                                                                <h5>Node.js</h5>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="myKnowledgeTitle_box">
+                                                                <span class="greenFont">#Database</span>
+                                                            </td>
+                                                            <td class="myKnowledgeText_box">
+                                                                <h5>MySQL</h5>
+                                                                <h5>ORACLE</h5>
+                                                                <h5>Cubrid</h5>
+                                                                <h5>HeidiSQL</h5>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="myKnowledgeTitle_box">
+                                                                <span class="greenFont">#Communication</span>
+                                                            </td>
+                                                            <td class="myKnowledgeText_box">
+                                                                <h5>Figma</h5>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="myKnowledgeTitle_box">
+                                                                <span class="greenFont">#Version Control</span>
+                                                            </td>
+                                                            <td class="myKnowledgeText_box">
+                                                                <h5>Github</h5>
+                                                                <h5>Git</h5>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="myKnowledgeTitle_box">
+                                                                <span class="greenFont">#UML</span>
+                                                            </td>
+                                                            <td class="myKnowledgeText_box">
+                                                                <h5>Class Diagram</h5>
+                                                                <h5>Sequence Diagram</h5>
+                                                                <h5>UseCase Diagram</h5>
+                                                                <h5>Activity Diagram</h5>
+                                                                <h5>State Machine Diagram</h5>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="myKnowledgeTitle_box">
+                                                                <span class="greenFont">#SW Development Deliverables</span>
+                                                            </td>
+                                                            <td class="myKnowledgeText_box">
+                                                                <h5>Requirements Analysis</h5>
+                                                                <h5>Data Flow Diagram</h5>
+                                                                <h5>Requirements Specification</h5>
+                                                                <h5>Entity Specification</h5>
+                                                                <h5>Entity Relationship Diagram</h5>
+                                                                <h5>Table Specification</h5>
+                                                                <h5>Domain Specification</h5>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section id="projects" class="main_section">
+                                    <div class="container">
+                                        <div class="project section_title whiteFont">
+                                            <h1>Projects</h1>
+                                        </div>
+                                        <div class="project_list">
+                                            <div class="project_small_title">
+                                                <a href="#" id="p1" onclick="projectClicked('p1');">project1</a>
+                                            </div>
+                                            <div class="project_small_title">
+                                                <a href="#" id="p2" onclick="projectClicked('p2');">project2</a>
+    
+                                            </div>
+                                            <div class="project_small_title">
+                                                <a href="#" id="p3" onclick="projectClicked('p3');">project3</a>
+    
+                                            </div>
+                                        </div>
+                                        <div id="project1" class="row whiteFont active_project">
+                                            <div class="project title">
+                                                <h3>방구석 전당대부 홈페이지 제작</h3>
+                                            </div>
+                                            <div class="project addr paleGrayFont">
+                                                <span>Web - http://bangguseok.kr</span>
+                                                <span>Git - https://github.com/dgl1231/jundangdaebu</span>
+                                            </div>
+                                            <div class="project_photo">
+                                                <!-- == section -->
+                                                <!-- 이미지 리스트 넣기-->
+                                                <input type="radio" name="slide" id="slide01" checked>
+                                                <input type="radio" name="slide" id="slide02">
+                                                <input type="radio" name="slide" id="slide03">
+                                                <input type="radio" name="slide" id="slide04">
+                                                <input type="radio" name="slide" id="slide05">
+                                                
+                                                <!--
+                                                <div class="imgimg">
+    
+                                                </div>
+                                                --> 
+                                                <div class="slideWrap">
+                                                    <ul class="slideList">
+                                                        <li>
+                                                            <a>
+                                                                <label for="slide05" class="left"></label>
+                                                                <img src="images/project1/01.png">
+                                                                <label for="slide02" class="right"></label>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a>
+                                                                <label for="slide01" class="left"></label>
+                                                                <img src="images/project1/02.png">
+                                                                <label for="slide03" class="right"></label>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a>
+                                                                <label for="slide02" class="left"></label>
+                                                                <img src="images/project1/03.png">
+                                                                <label for="slide04" class="right"></label>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a>
+                                                                <label for="slide03" class="left"></label>
+                                                                <img src="images/project1/04.png">
+                                                                <label for="slide05" class="right"></label>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a>
+                                                                <label for="slide04" class="left"></label>
+                                                                <img src="images/project1/05.png">
+                                                                <label for="slide01" class="right"></label>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="subBox">
+                                                <div class="project leadTime">
+                                                    <h2>| Lead Time |</h2>
+                                                    <div class="content_box">
+                                                        <h4>2021.11. ~ 2022.01.</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="project usingSkills">
+                                                    <h2>| Using Skills |</h2>
+                                                    <!-- css, html, blabla-->
+                                                    <div class="skill_box">
+                                                        <h5>EJS</h5>
+                                                        <h5>JavaScript</h5>
+                                                        <h5>Node.js</h5>
+                                                        <h5>CSS</h5>
+                                                        <h5>HTML</h5>
+                                                        <h5>SQL</h5>
+                                                        <h5>MySQL</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="project team">
+                                                    <h2>| Team |</h2>
+                                                    <div class="content_box">
+                                                        <h4>홍정인 외 1인</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="project summary">
+                                                <h2>| Summary |</h2>
+                                                <div class="content_box">
+                                                    <h4>위드펀드에서 바름대부 홈페이지 제작을 맡아 진행한 프로젝트</h4>
+                                                    <h4>EJS를 사용하여 Frontend를 구현하고, Node.js를 사용하여 DB와 클리이언트를 연동함</h4>
+                                                    <h4>회사소개, 대출받기, 한도문의, 대출이력, 로그인, 마이페이지, 관리자페이지로 구성됨</h4>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="project myPart">
+                                                <h2>| My Part |</h2>
+                                                <div class="content_box">
+                                                    <h4>분석 > 요구사항 정의서, 요구사항 분석서, 요구사항 명세서, 용어 정의서 작성</h4>
+                                                    <h4>설계 > 시스템 구성도, 화면 정의서, E-R Diagram, 엔티티 정의서, 도메인 정의서, 클래스 정의서 작성</h4>
+                                                    <h4>구현 > 로그인-아웃, 한도 문의 리스트 조회, 대출 리스트 조회, 마이페이지, DB 구축 및 관리(HeidiSQL), SQL문 작성</h4>
+                                                    <h4>로그인 > 대부라는 무거운 홈페이지에 쉽게 접근할 수 있게 회원가입 없이 로그인 할 수 있도록 함(동적 DB 관리)</h4>
+                                                    <h4>대출이력 > 슬라이드 방식의 페이지. DB에서 모든 회원들의 대출 리스트를 받아와, 진행되었던 모든 대출이력을 보여줌</h4>
+                                                    <h4>한도문의 > DB에서 한도문의 글 리스트를 받아와 날짜 별 오름차순으로 보여줌</h4>
+                                                    <h4>마이페이지(대출이력조회) > 로그인 한 사용자의 대출 현황(이력)을 조회할 수 있음. 대출은 3가지 상태로 구분되며, 전체조회와 날짜 부분 조회 기능을 가지고 있음</h4>
+                                                    <h4>마이페이지(한도문의) > 사용자가 작성했던 한도문의 게시글을 확인할 수 있음</h4>
+                                                    <h4>마피페이지(첨부서류) > 대출 진행 시 제출했던 서류들을 다운 받아 확인할 수 있음</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="project2" class="row whiteFont">
+                                            <div class="project title">
+                                                <h3>선문대학교 셔틀버스 애플리케이션</h3>
+                                            </div>
+                                            <div class="project addr paleGrayFont">
+                                                <span>Web - not exist</span>
+                                                <span>Git - https://github.com/DongHwan97/SunmoonBus</span>
+                                            </div>
+                                            <div class="project_photo">
+                                                <div class="photoWrap">
+                                                    <input type="radio" name="p2_slide" id="p2_slide01" checked>
+                                                    <input type="radio" name="p2_slide" id="p2_slide02">
+                                                    <input type="radio" name="p2_slide" id="p2_slide03">
+                                                    <input type="radio" name="p2_slide" id="p2_slide04">
+                                                    <input type="radio" name="p2_slide" id="p2_slide05">
+                                                    <input type="radio" name="p2_slide" id="p2_slide06">
+                                                    <input type="radio" name="p2_slide" id="p2_slide07">
+                                                    <input type="radio" name="p2_slide" id="p2_slide08">
+                                                    <input type="radio" name="p2_slide" id="p2_slide09">
+                                                    <input type="radio" name="p2_slide" id="p2_slide10">
+                                                    <input type="radio" name="p2_slide" id="p2_slide11">
+                                                    <div class="slideWrap">
+                                                        <ul class="slideList">
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p2_slide11" class="left"></label>
+                                                                    <img src="images/project2/01.jpg">
+                                                                    <label for="p2_slide02" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p2_slide01" class="left"></label>
+                                                                    <img src="images/project2/02.jpg">
+                                                                    <label for="p2_slide03" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p2_slide02" class="left"></label>
+                                                                    <img src="images/project2/03.jpg">
+                                                                    <label for="p2_slide04" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p2_slide03" class="left"></label>
+                                                                    <img src="images/project2/04.jpg">
+                                                                    <label for="p2_slide05" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p2_slide04" class="left"></label>
+                                                                    <img src="images/project2/05.jpg">
+                                                                    <label for="p2_slide06" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p2_slide05" class="left"></label>
+                                                                    <img src="images/project2/06.jpg">
+                                                                    <label for="p2_slide07" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p2_slide06" class="left"></label>
+                                                                    <img src="images/project2/07.jpg">
+                                                                    <label for="p2_slide08" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p2_slide07" class="left"></label>
+                                                                    <img src="images/project2/08.jpg">
+                                                                    <label for="p2_slide09" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p2_slide08" class="left"></label>
+                                                                    <img src="images/project2/09.jpg">
+                                                                    <label for="p2_slide10" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p2_slide09" class="left"></label>
+                                                                    <img src="images/project2/10.jpg">
+                                                                    <label for="p2_slide11" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p2_slide10" class="left"></label>
+                                                                    <img src="images/project2/11.jpg">
+                                                                    <label for="p2_slide01" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="subBox">
+                                                <div class="project leadTime">
+                                                    <h2>| Lead Time |</h2>
+                                                    <div class="content_box">
+                                                        <h4>2020.09. ~ 2020.12.</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="project usingSkills">
+                                                    <h2>| Using Skills |</h2>
+                                                    <!-- css, html, blabla-->
+                                                    <div class="skill_box">
+                                                        <h5>Android</h5>
+                                                        <h5>Java</h5>
+                                                        <h5>XML</h5>
+                                                        <h5>Css</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="project team">
+                                                    <h2>| Team |</h2>
+                                                    <div class="content_box">
+                                                        <h4>홍정인 외 3인</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="project summary">
+                                                <h2>| Summary |</h2>
+                                                <div class="content_box">
+                                                    <h4>추가적인 장비 구매 없이 스마트폰의 NFC와 GPS를 활용하여 셔틀버스의 위치와 탑승 인원을 알 수 있는 애플리케이션</h4>
+                                                    <h4>css와 xml을 사용하여 Frontend를 개발</h4>
+                                                    <h4> </h4>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="project myPart">
+                                                <h2>| My Part |</h2>
+                                                <div class="content_box">
+                                                    <h4>분석 > 요구사항 정의서, 요구사항 분석서</h4>
+                                                    <h4>설계 > 시스템 구성도, 화면 정의서</h4>
+                                                    <h4>구현 > 로그인, 회원가입, 비밀번호 찾기, 버스 목록, NFC 태그 화면 구현</h4>
+                                                    <h4>로그인 > 로그인 버튼 클릭 시 사용자가 입력한 ID, Password값을 서버로 전달 후 서버로부터 넘어오는 정보(Y or N)를 토대로 로그인을 진행</h4>
+                                                    <h4>회원가입 > 회원가입(완료) 버튼이 존재함. 버튼 클릭 시 사용자가 입력한 값을 서버로 전달 후 서버로부터 넘어오는 정보(Y or N)를 토대로 회원가입을 진행</h4>
+                                                    <h4>비밀번호 찾기 > 사용자가 입력한 값을 서버로 전달 후 존재하는 사용자일 경우 비밀번호 재설정을 진행함</h4>
+                                                    <h4>버스 목록 화면 > 서버는 탑승자 gps를 토대로 측정한 탑승 인원 수와 운행 버스 목록을 클라이언트로 보냄. 해당 정보를 파싱 후 사용자에게 운행 버스 목록과 탑승 인원 수를 보여줌. 운행 중인 버스가 없을 경우 운행 대기중으로 표시함</h4>
+                                                    <h4>NFC 태그 화면 > css와 xml을 사용하여 구현</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="project3" class="row whiteFont">
+                                            <div class="project title">
+                                                <h3>소켓통신을 이용한 카페 자리 에약 시스템</h3>
+                                            </div>
+                                            <div class="project addr paleGrayFont">
+                                                <span>Web - not exist</span>
+                                                <span>Git - https://github.com/DongHwan97/OS_CRS_JAVA</span>
+                                            </div>
+                                            <div class="project_photo">
+                                                <div class="photoWrap">
+                                                    <input type="radio" name="p3_slide" id="p3_slide01" checked>
+                                                    <input type="radio" name="p3_slide" id="p3_slide02">
+                                                    <input type="radio" name="p3_slide" id="p3_slide03">
+                                                    <input type="radio" name="p3_slide" id="p3_slide04">
+                                                    <input type="radio" name="p3_slide" id="p3_slide05">
+                                                    <input type="radio" name="p3_slide" id="p3_slide06">
+                                                    <input type="radio" name="p3_slide" id="p3_slide07">
+                                                    <input type="radio" name="p3_slide" id="p3_slide08">
+                                                    <input type="radio" name="p3_slide" id="p3_slide09">
+                                                    <input type="radio" name="p3_slide" id="p3_slide10">
+                                                    <input type="radio" name="p3_slide" id="p3_slide11">
+                                                    <input type="radio" name="p3_slide" id="p3_slide12">
+                                                    <input type="radio" name="p3_slide" id="p3_slide13">
+                                                    <input type="radio" name="p3_slide" id="p3_slide14">
+                                                    <input type="radio" name="p3_slide" id="p3_slide15">
+                                                    <input type="radio" name="p3_slide" id="p3_slide16">
+                                                    <div class="slideWrap">
+                                                        <ul class="slideList">
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide16" class="left"></label>
+                                                                    <img src="images/project3/01.png">
+                                                                    <label for="p3_slide02" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide01" class="left"></label>
+                                                                    <img src="images/project3/02.png">
+                                                                    <label for="p3_slide03" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide02" class="left"></label>
+                                                                    <img src="images/project3/03.png">
+                                                                    <label for="p3_slide04" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide03" class="left"></label>
+                                                                    <img src="images/project3/04.png">
+                                                                    <label for="p3_slide05" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide04" class="left"></label>
+                                                                    <img src="images/project3/05.png">
+                                                                    <label for="p3_slide06" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide05" class="left"></label>
+                                                                    <img src="images/project3/06.png">
+                                                                    <label for="p3_slide07" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide06" class="left"></label>
+                                                                    <img src="images/project3/07.png">
+                                                                    <label for="p3_slide08" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide07" class="left"></label>
+                                                                    <img src="images/project3/08.png">
+                                                                    <label for="p3_slide09" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide08" class="left"></label>
+                                                                    <img src="images/project3/09.png">
+                                                                    <label for="p3_slide10" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide09" class="left"></label>
+                                                                    <img src="images/project3/10.png">
+                                                                    <label for="p3_slide11" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide10" class="left"></label>
+                                                                    <img src="images/project3/11.png">
+                                                                    <label for="p3_slide12" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide11" class="left"></label>
+                                                                    <img src="images/project3/12.png">
+                                                                    <label for="p3_slide13" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide12" class="left"></label>
+                                                                    <img src="images/project3/13.png">
+                                                                    <label for="p3_slide14" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide13" class="left"></label>
+                                                                    <img src="images/project3/14.png">
+                                                                    <label for="p3_slide05" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide14" class="left"></label>
+                                                                    <img src="images/project3/15.png">
+                                                                    <label for="p3_slide16" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a>
+                                                                    <label for="p3_slide15" class="left"></label>
+                                                                    <img src="images/project3/16.png">
+                                                                    <label for="p3_slide01" class="right"></label>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="subBox">
+                                                <div class="project leadTime">
+                                                    <h2>| Lead Time |</h2>
+                                                    <div class="content_box">
+                                                        <h4>2020.03. ~ 2020.06.</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="project usingSkills">
+                                                    <h2>| Using Skills |</h2>
+                                                    <!-- css, html, blabla-->
+                                                    <div class="skill_box">
+                                                        <h5>Java</h5>
+                                                        <h5>XML</h5>                                                    
+                                                        <h5>SQL</h5>
+                                                        <h5>MySQL</h5>
+                                                        <h5>Socket</h5>
+                                                        <h5>HTML</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="project team">
+                                                    <h2>| Team |</h2>
+                                                    <div class="content_box">
+                                                        <h4>홍정인 외 2인</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="project summary">
+                                                <h2>| Summary |</h2>
+                                                <div class="content_box">
+                                                    <h4>Java GUI를 사용하여 만든 카페 자리 예약 시스템</h4>
+                                                    <h4>소켓 통신을 통한 서버와 클라이언트 구현. JavaFXSceneBuilder를 사용하여 GUI를 만들어, 사용자에게 편의를 제공함</h4>
+                                                </div>
+                                            </div>
+                                            <div class="project myPart">
+                                                <h2>| My Part |</h2>
+                                                <div class="content_box">
+                                                    <h4>분석 > 요구사항 분석서, 요구사항 명세서</h4>
+                                                    <h4>구현 > 서버 구축, DB 설계 및 구축(MySQL), SQL문 작성, 클라이언트 화면 및 프론트엔드 개발</h4>
+                                                    <h4>로그인 > 입력한 ID/PW가 DB에 존재하는지 질의 후 로그인 진행</h4>
+                                                    <h4>회원가입 > 입력한 정보가 DB에 존재하는지 질의(중복확인) 후 회원가입 진행 (자동로그인 有)</h4>
+                                                    <h4>아이디-비밀번호 찾기 > 입력한 정보를 토대로 DB에 아이디 및 비밀번호 질의 후 값을 도출하여 사용자에게 보여줌</h4>
+                                                    <h4>DataBase > MySQL을 사용하여 DB 구축. 회원정보, 예약정보 등 총 4개의 테이블이 존재함</h4>
+                                                    <h4>Server > 소켓을 사용하여 서버와 클라이언트를 연동. 클라이언트는 ArrayList로 관리</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_rightContainer">
+                    <div class="menuContainer">
+                        <ul class="menubar">
+                            <li id="homeLabel" class="homeBtn">
+                                <input type="radio" name="rotate" id="homeRotate" class="btnControl" checked/>
+                                <label for="homeRotate" class="homeBtn_img">
+                                    <a href="#" class="menuAnim" onclick="homeF();">
+                                    </a>
+                                    <span class="link">
+                                        Home
+                                    </span>
+                                </label>
+                            </li>
+                            <li id="aboutMeLabel" class="aboutMeBtn">
+                                <input type="radio" name="rotate" id="aboutMeRotate" class="btnControl"/>
+                                <label for="aboutMeRotate" class="aboutMeBtn_img">
+                                    <a href="#" class="menuAnim" onclick="aboutMeF();">
+                                        
+                                    </a>
+                                    <span class="link">
+                                        About Me
+                                    </span>
+                                </label>
+                            </li>
+                            <li id="projectsLabel" class="projectsBtn">
+                                <input type="radio" name="rotate" id="projectsRotate" class="btnControl"/>
+                                <label for="projectsRotate" class="projectsBtn_img">
+                                    <a href="#" class="menuAnim" onclick="projectsF();">
+                                        
+                                    </a>
+                                    <span class="link">
+                                        Projects
+                                    </span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="arrowsContainer">
+                        <ul class="arrowsbar">
+                            <li class="nextPage" onclick="nextPage();">
+
+                            </li>
+                            <li class="prevPage" onclick="prevPage();">
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <script src="javascript/moveControl.js"></script>
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js" integrity="sha512-2hIlk2fL+NNHkULe9gGdma/T5vSYk80U5tvAFSy3dGEl8XD4h2i6frQvHv5B+bm/Itmi8nJ6krAcj5FWFcBGig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <script type="text/JavaScript">
+                    $(function() {
+                        $('#aboutMe').mCustomScrollbar({
+                            theme: "3d-dark"
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+        <div id="mail_form_background" class="mail_form_background">
+        
+            <form action="#" class="mail_form">
+                <div class="name_form">
+                    <h11>Name</h11>
+                    <input type="text" placeholder="Please Enter Your Name"  class="name_text_area"/>
+                </div>
+                <div class="name_form">
+                    <h11>Email</h11>
+                    <input type="Email" placeholder="Please Enter Your Email(=gmail)"  class="email_text_area"/>
+                </div>
+                <div class="text_form">
+                    <h11>Message</h11>
+                    <textarea col="5" rows="15" placeholder="Please Enter Your Message" class="text_area"></textarea>
+                </div>
+                <div class="sendBtn_form">
+                    <button type="submit" class="sendBtn">Submit</button>
+                </div>
+            </form>
+
+            <div id="background" class="background" onclick="esc()">
+                
+            </div>
+        
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="javascript/mailForm.js"></script>
+        <script src="???.js"></script>
+    </body>
+</html>
