@@ -79,6 +79,50 @@ function projectsF() {
     aLabel.style.filter = grayFilter;
     hLabel.style.filter = grayFilter;
 }
+/* 이 아래로 바꿀 계획 - 프로젝트 가시화
+* 0 = none
+* -74deg
+* -148deg
+* -222deg
+* -296deg
+*
+function project1_F() {
+    list[2].classList.add('active_section');
+    list[0].classList.remove('active_section');
+    list[1].classList.remove('active_section');
+    list[3].classList.remove('active_section');
+    list[4].classList.remove('active_section');
+    cube.style.transform = "rotateY(-148deg)";
+    pLabel.style.filter = whiteFilter;
+    aLabel.style.filter = grayFilter;
+    hLabel.style.filter = grayFilter;
+}
+
+function project2_F() {
+    list[3].classList.add('active_section');
+    list[0].classList.remove('active_section');
+    list[1].classList.remove('active_section');
+    list[2].classList.remove('active_section');
+    list[4].classList.remove('active_section');
+    cube.style.transform = "rotateY(-222deg)";
+    pLabel.style.filter = whiteFilter;
+    aLabel.style.filter = grayFilter;
+    hLabel.style.filter = grayFilter;
+
+}
+
+function project3_F() {
+    list[4].classList.add('active_section');
+    list[0].classList.remove('active_section');
+    list[3].classList.remove('active_section');
+    list[1].classList.remove('active_section');
+    list[2].classList.remove('active_section');
+    cube.style.transform = "rotateY(-296deg)";
+    pLabel.style.filter = whiteFilter;
+    aLabel.style.filter = grayFilter;
+    hLabel.style.filter = grayFilter;
+}
+*/
 
 function nextPage() {
     if (list[0].classList.contains('active_section')) {
@@ -90,6 +134,7 @@ function nextPage() {
     }
 }
 
+
 function prevPage() {
     if (list[0].classList.contains('active_section')) {
         projectsF();
@@ -99,3 +144,33 @@ function prevPage() {
         homeF();
     }
 }
+
+/* 프로젝트 가시화
+function nextPage_1() {
+    if (list[0].classList.contains('active_section')) {
+        aboutMeF();
+    } else if (list[1].classList.contains('active_section')) {
+        project1_F();
+    } else if (list[2].classList.contains('active_section')) {
+        project2_F();
+    } else if (list[3].classList.contains('active_section')) {
+        project3_F();
+    } else {
+        homeF();
+    }
+}
+
+function prevPage_1() {
+    if (list[0].classList.contains('active_section')) {
+        projects3_F();
+    } else if (list[1].classList.contains('active_section')) {
+        homeF();
+    } else if (list[2].classList.contains('active_section')) {
+        aboutMeF();
+    } else if (list[3].classList.contains('active_section')) {
+        project1_F();
+    } else {
+        project2_F();
+    }
+}
+*/

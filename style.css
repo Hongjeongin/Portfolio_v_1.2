@@ -2,6 +2,13 @@
     box-sizing: initial;
 }
 
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     margin: 0px;
     line-height: 1.2 !important;
@@ -663,6 +670,10 @@ body {
 
 .addr {
     width: 100%;
+}
+
+.addr span a{
+    color: #D1D1D1
 }
 
 .project_photo {
