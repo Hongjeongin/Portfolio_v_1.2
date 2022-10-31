@@ -227,6 +227,31 @@ body {
     width: 20px;
     height: 20px;
 }
+
+.internet {
+    background: url('images/internet.png')  no-repeat;
+    background-position: center center;
+    background-size: 20px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.project .social_image {
+    filter: invert(100%)
+            sepia(0%)
+            saturate(0%)
+            hue-rotate(93deg)
+            brightness(103%)
+            contrast(103%);
+}
+
+.project .social_image:hover {
+    background-color: #ebebebbd;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 .social_image a {
     display: flex;
     justify-content: center;
@@ -965,6 +990,11 @@ body {
     padding-bottom: 15px;
     /*margin-bottom: 15px;*/
 }
+
+.project.addr {
+    display: flex;
+    flex-direction: row;
+}
 /*
 .imgimg {
     width: 90%;
@@ -1305,6 +1335,24 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "none";
     line-height: 1.2;
     color: inherit;
+}
+
+h7 {
+    font-size: 15px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: lighter;
+}
+
+h8 {
+    font-size: 17px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
 }
 
 .projectContainer {

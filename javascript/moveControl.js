@@ -15,6 +15,8 @@ var p1 = document.getElementById('project1');
 var p2 = document.getElementById('project2');
 var p3 = document.getElementById('project3');
 
+const project_title = document.querySelector('#projects .project.section_title.whiteFont h1');
+
 var list = [home, aboutMe, projects];
 var pList = [project1, project2, project3];
 
@@ -27,6 +29,7 @@ var grayFilter = "invert(90%) sepia(0%) saturate(40%) hue-rotate(218deg) brightn
 
 function projectClicked(select) {
     if (select == 'p1') {
+        project_title.innerText = "Project1 - 바름대부 온라인 서비스";
         p1.classList.add('active_project');
         p2.classList.remove('active_project');
         p3.classList.remove('active_project');
@@ -34,6 +37,7 @@ function projectClicked(select) {
         pList[1].style.color = gray;
         pList[2].style.color = gray;
     } else if (select == 'p2') {
+        project_title.innerText = "Project2 - 선문버스 App";
         p1.classList.remove('active_project');
         p2.classList.add('active_project');
         p3.classList.remove('active_project');
@@ -41,6 +45,7 @@ function projectClicked(select) {
         pList[1].style.color = white;
         pList[2].style.color = gray;
     } else if(select == 'p3') {
+        project_title.innerText = "Project3 - Cafe Reservation System";
         p1.classList.remove('active_project');
         p2.classList.remove('active_project');
         p3.classList.add('active_project');
