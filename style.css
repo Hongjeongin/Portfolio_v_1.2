@@ -503,7 +503,7 @@ body {
 
 .myKnowledgeTitle_box {
     font-size: 18px;
-    width: fit-content;
+    width: 170px;
     align-items: flex-start;
     vertical-align:top;
 }
