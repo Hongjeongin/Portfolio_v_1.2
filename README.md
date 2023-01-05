@@ -1,2 +1,3 @@
-# Portfolio_v_1.2
- Portfolio version up
+# Hongjeonin's Portfolio
+
+### LINK - http://hji-portfolio.shop/
