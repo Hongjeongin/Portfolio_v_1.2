@@ -210,6 +210,7 @@ body {
 }
 
 .social_image {
+    margin-left: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -639,7 +640,7 @@ body {
     opacity: 1;
     height: 550px;
     margin-top: 80px;
-    padding-left: 25px;
+    /* padding-left: 25px; */
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -668,6 +669,14 @@ body {
     cursor:default;
 }
 
+.project_list > div > a {
+    color: #616161;
+}
+
+.project_list > div:first-child > a {
+    color: #FFFFFF;
+}
+
 .project_small_title {
     z-index: 100;
     width: auto;
@@ -680,13 +689,13 @@ body {
     text-decoration: none;
 }
 
-#p1 {
+/* #p1 {
     color: #FFFFFF;
 }
 
 #p2, #p3 {
-    color: #616161;
-}
+    
+} */
 
 
 .title {
@@ -748,19 +757,19 @@ body {
     display: none;
 }
 
-#project1 .project_photo [id="slide01"]:checked ~ .slideWrap .slideList > li {
+#project3 .project_photo [id="p3_slide01"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(0%);
 }
-#project1 .project_photo [id="slide02"]:checked ~ .slideWrap .slideList > li {
+#project3 .project_photo [id="p3_slide02"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-100%);
 }
-#project1 .project_photo [id="slide03"]:checked ~ .slideWrap .slideList > li {
+#project3 .project_photo [id="p3_slide03"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-200%);
 }
-#project1 .project_photo [id="slide04"]:checked ~ .slideWrap .slideList > li {
+#project3 .project_photo [id="p3_slide04"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-300%);
 }
-#project1 .project_photo [id="slide05"]:checked ~ .slideWrap .slideList > li {
+#project3 .project_photo [id="p3_slide05"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-400%);
 }
 
@@ -799,52 +808,52 @@ body {
 }
 
 
-#project3 .project_photo .photoWrap [id="p3_slide01"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide01"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(0%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide02"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide02"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-100%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide03"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide03"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-200%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide04"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide04"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-300%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide05"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide05"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-400%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide06"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide06"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-500%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide07"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide07"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-600%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide08"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide08"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-700%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide09"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide09"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-800%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide10"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide10"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-900%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide11"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide11"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-1000%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide12"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide12"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-1100%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide13"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide13"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-1200%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide14"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide14"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-1300%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide15"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide15"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-1400%);
 }
-#project3 .project_photo .photoWrap [id="p3_slide16"]:checked ~ .slideWrap .slideList > li {
+#project1 .project_photo .photoWrap [id="p1_slide16"]:checked ~ .slideWrap .slideList > li {
     transform: translateX(-1500%);
 }
 
@@ -895,9 +904,9 @@ body {
     height: 100%;
 }
 
-#project3 .project_photo .slideList > li > a img {
+/* #project3 .project_photo .slideList > li > a img {
     width: 50%;
-}
+} */
 
 .project_photo .slideList label {
     position: absolute;
@@ -1254,6 +1263,49 @@ body {
     background: url('images/prev.png') no-repeat;
     background-position: center center;
     background-size: 27px;
+}
+
+.popup_btn {
+    width: 5rem;
+}
+
+.popup {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    margin: auto;
+}
+
+.popupBackground {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -5;
+}
+
+.popupWindow {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    background-color: #FFFFFF;
+    border: solid 1px #000000;
+    z-index: 100000;
+    border-radius: 3rem;
+    margin: auto;
+}
+
+.popupImage {
+
+}
+
+.popupTitle {
+
+}
+
+.popupContent {
+
 }
 @media screen and (max-width: 1280px) {
     

@@ -1,4 +1,3 @@
-
 var home = document.getElementById('home');
 var aboutMe = document.getElementById('aboutMe');
 var projects = document.getElementById('projects');
@@ -7,18 +6,34 @@ var hLabel = document.getElementById('homeLabel');
 var aLabel = document.getElementById('aboutMeLabel');
 var pLabel = document.getElementById('projectsLabel');
 
-var project1 = document.getElementById('p1');
-var project2 = document.getElementById('p2');
-var project3 = document.getElementById('p3');
+const projectTitles = [
+    'Cafe Reservation System',
+    '선문버스 App',
+    '바름대부 온라인 서비스',
+    '이끌래요 관리자 웹 페이지',
+    'WereOne',
+    'DK 미디어 1',
+    '신성 CMS 및 DK 미디어 2',
+]
 
-var p1 = document.getElementById('project1');
-var p2 = document.getElementById('project2');
-var p3 = document.getElementById('project3');
+const projectRows = document.querySelectorAll('.row');
+const pLength = projectRows.length;
+
+let project = [];
+let pList = [];
+
+for (let i = 0; i < pLength; i++) {
+    const curP = document.getElementById(`p${i + 1}`);
+    const curProject = document.getElementById(`project${i + 1}`);
+    pList.push(curP);
+    project.push(curProject);
+}
 
 const project_title = document.querySelector('#projects .project.section_title.whiteFont h1');
+project_title.innerHTML = `Project ${pLength} - ${projectTitles[pLength - 1]}`;
 
 var list = [home, aboutMe, projects];
-var pList = [project1, project2, project3];
+// var pList = [project1, project2, project3, project4, project5, project6];
 
 var white = "#FFFFFF";
 var gray = "#616161";
@@ -28,31 +43,18 @@ var whiteFilter = "invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightn
 var grayFilter = "invert(90%) sepia(0%) saturate(40%) hue-rotate(218deg) brightness(87%) contrast(93%)"
 
 function projectClicked(select) {
-    if (select == 'p1') {
-        project_title.innerText = "Project1 - 바름대부 온라인 서비스";
-        p1.classList.add('active_project');
-        p2.classList.remove('active_project');
-        p3.classList.remove('active_project');
-        pList[0].style.color = white;
-        pList[1].style.color = gray;
-        pList[2].style.color = gray;
-    } else if (select == 'p2') {
-        project_title.innerText = "Project2 - 선문버스 App";
-        p1.classList.remove('active_project');
-        p2.classList.add('active_project');
-        p3.classList.remove('active_project');
-        pList[0].style.color = gray;
-        pList[1].style.color = white;
-        pList[2].style.color = gray;
-    } else if(select == 'p3') {
-        project_title.innerText = "Project3 - Cafe Reservation System";
-        p1.classList.remove('active_project');
-        p2.classList.remove('active_project');
-        p3.classList.add('active_project');
-        pList[0].style.color = gray;
-        pList[1].style.color = gray;
-        pList[2].style.color = white;
+    id = select.id
+    idx = id.split('')[1];
+
+    for (let i = 0; i < pLength; i++) {
+        pList[i].classList.remove('active_project');
+        project[i].classList.remove('active_project');
+        pList[i].style.color = gray;
     }
+    project_title.innerHTML = `Project ${idx} - ${projectTitles[idx - 1]}`;
+    pList[idx - 1].style.color = white;
+    pList[idx - 1].classList.add('active_project');
+    project[idx - 1].classList.add('active_project');
 }
 
 function homeF() {
